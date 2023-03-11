@@ -85,8 +85,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 There were no collaborators in this task.
 
-I watched and followed ....
---------------------------------------------
+I watched and followed the bootcamp recording on Modern Development with React Day 3.
+
+
 
 
 

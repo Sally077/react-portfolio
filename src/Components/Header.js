@@ -40,4 +40,6 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+
+export default  NavTabs;
+

@@ -1,5 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Bootstrap from "./Components/Bootstrap";//find out how to add multiple components to app return(<Bootstrap/>
 import NavTabs from "./Components/Header";
 import Home from "./Components/Pages/HomePage";
 import Projects from "./Components/Pages/ProjectsPage";
