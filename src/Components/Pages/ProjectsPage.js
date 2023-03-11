@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projects = () => (
+const ProjectsPage = () => (
   <div>
     <h1>Projects</h1>
     <p>
@@ -13,4 +13,4 @@ const Projects = () => (
   </div>
 );
 
-export default Projects;
+export default ProjectsPage;

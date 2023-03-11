@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![license: mit](https://img.shields.io/badge/MIT-License__for__MIT-yellowgreen)](https://opensource.org/license/mit/)
 
-## Available Scripts
+## Description
+<a id="description"></a>
 
-In the project directory, you can run:
+After creating a portfolio using just HTML and CSS and then moving on as a new developer to creating a portfolio using bootstrap and a little javascript. I am now going to enhance my skills by creating a more dynamic portfolio using react.
 
-### `npm start`
+I am going to implement the following components:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A HomePage that contains the following:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Your Name
+An Image or Avatar of myself
+My brand statement
+Information that shows this is my portfolio site
 
-### `npm test`
+A Projects Page to Include:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Six rendered project components that must be a reusable component that ingests JSON data as props and renders a single instance for each project.
 
-### `npm run build`
+Must utilize Router props to properly render the right project based on user selection
+Must render the following info:
+Project title
+Link to the deployed version
+Link to the GitHub repository
+GIF or screenshot of the deployed application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A contact Page with the following:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Must include contact information:
+Email address
+Link to a PDF version of your CV
+Link to your GitHub profile
+Link to your LinkedIn page
+Must have a contact form for handling events
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Tasks and Techniques:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The rendered projects must be stored in a JSON file and imported into the project.
+I need to use map to replicate the template
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Improvements & Issues
+<a id="improvements"></a>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Table of Contents
 
-### Code Splitting
+- [Description](#description)
+- [Improvements](#improvements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Contribution](#how-to-contribute)
+- [Tests](#tests)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation
+<a id="installation"></a>
 
-### Analyzing the Bundle Size
+I have currently installed node.js, react, react-router and bootstrap.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
+<a id="usage"></a>
 
-### Making a Progressive Web App
+The main aim of the project is to build up on my existing skills learn how to use react to showcase my skills to gain future employment as a front end developer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Credits
+<a id="credits"></a>
+
+There were no collaborators in this task.
+
+I watched and followed ....
+--------------------------------------------
+
+
+
+## License
+<a id="license"></a>
+
+I have chosen a MIT license for this project
+
+
+## Badges
+<a id="badges"></a>
+
+I now have 3 git hub badge acheivements pullshark x2 and YOLO and a quickdraw badge
+
+## Features
+<a id="features"></a>
+
+My code has a choices feature in node that allows the user to choose a license and applies a badge image at the top with links to information about the main licenses.
+
+## How to Contribute
+<a id="contribution"></a>
+
+N/A
+
+## Tests
+<a id="tests"></a>
+
+Test 1 - check that all the links work and my file structure is in correct working order
