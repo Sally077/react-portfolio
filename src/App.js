@@ -1,9 +1,9 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import NavTabs from "./Components/NavTabs";
-import Home from "./Components/Home";
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import Home from "./Components/Pages/HomePage";
+import Projects from "./Components/Pages/ProjectsPage";
+import Contact from "./Components/Pages/ContactPage";
 
 function App() {
     return (
