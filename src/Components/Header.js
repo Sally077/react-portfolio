@@ -1,45 +1,20 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { Header } from 'react-router-dom';
 
-function NavTabs() {
-  return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <NavLink
-          to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Home
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="Projects"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          projects
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="Contact"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Contact
-        </NavLink>
-     
-      </li>
-    </ul>
+
+
+function Jumbotron() {
+  return( 
+    <div className="jumbotron jumbotron-fluid">
+        <div className="container">
+          <h1 class="display-4">Sally Hedges</h1>
+        <p class="lead">Front End Developer</p>
+        </div>
+      </div>
   );
-}
+  }
 
 
-export default  NavTabs;
+
+export default Jumbotron;
 

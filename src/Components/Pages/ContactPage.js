@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Learn from './ContactPage';
+import contact from './ContactPage';
 
 function Contact(props) {
   return (
@@ -19,7 +19,7 @@ function Contact(props) {
         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
-      <Link to="learn" role="button" className="btn btn-link">
+      <Link to="contact" role="button" className="btn btn-link">
         Learn More
       </Link>
       <Link to="contact" role="button" className="btn btn-link">
