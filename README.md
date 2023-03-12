@@ -93,6 +93,10 @@ https://create-react-app.dev/docs/adding-a-stylesheet/
 I watched this video as I was struggling linking bootstrap html with the code to add react routes (80/20 Coding)
 https://www.youtube.com/watch?v=vD72tRK8mC4
 
+I looked at hexadecimal codes from the following website for styling ideas
+https://looka.com/blog/logo-color-combinations/
+
+
 
 
 

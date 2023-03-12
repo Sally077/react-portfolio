@@ -1,3 +1,14 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat&family=Dancing+Script:wght@400;500;600&family=Dosis:wght@500&family=Pacifico&family=Quicksand&family=Roboto:wght@400;500&family=Sevillana&display=swap');
+
+  :root {
+    --primary-pink: #DF678C;
+    --primary-purple: #3D155F;
+  }
+  .body {
+    font-family: 'Quicksand', sans-serif;
+  }
+
 /* Nav Bar */
 .logo {
   width: 6rem;
@@ -7,9 +18,27 @@ nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
+  
 }
 
-nav ul li {
-  text-transform: uppercase;
-  
+
+.navbar-nav > li > a {
+color: var(--primary-pink) !important;
+margin-right: 0.75rem;
+margin-left: 0.75rem;
+font-size: 1.5rem;
+
+
+}
+
+nav.navbar.navbar {
+  background-color: var(--primary-purple) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:active:focus {
+  border-bottom: 0.1875rem solid var(--primary-pink);
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--primary-pink);
 }
