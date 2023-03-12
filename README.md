@@ -87,6 +87,12 @@ There were no collaborators in this task.
 
 I watched and followed the bootcamp recording on Modern Development with React Day 3.
 
+I looked at this website to show me how to link stylesheets
+https://create-react-app.dev/docs/adding-a-stylesheet/
+
+I watched this video as I was struggling linking bootstrap html with the code to add react routes (80/20 Coding)
+https://www.youtube.com/watch?v=vD72tRK8mC4
+
 
 
 
@@ -105,7 +111,7 @@ I now have 3 git hub badge acheivements pullshark x2 and YOLO and a quickdraw ba
 ## Features
 <a id="features"></a>
 
-My code has a choices feature in node that allows the user to choose a license and applies a badge image at the top with links to information about the main licenses.
+
 
 ## How to Contribute
 <a id="contribution"></a>
