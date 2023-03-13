@@ -42,3 +42,21 @@ nav.navbar.navbar {
 .navbar-nav > li > a:hover {
   border-bottom: 0.1875rem solid var(--primary-pink);
 }
+
+/* ===========================Header================================ */
+
+.jumbotron {
+  background-color: var(--primary-pink) !important;
+  color:var(--primary-purple) !important;
+  font-weight: 600;
+}
+
+.display-4 {
+  font-size: 4rem !important;
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.5rem !important;
+  text-align: center;
+}
