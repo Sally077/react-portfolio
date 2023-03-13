@@ -2,11 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../avatar.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faBars} from "@fortawesome/free-solid-svg-icons"; // <-- import styles to be used
-
-{/* <FontAwesomeIcon icon={solid('faBars')} /> */}
-
-
+import {faBars} from "@fortawesome/free-solid-svg-icons"; 
 
 
 function NavTabs() {
@@ -15,7 +11,7 @@ function NavTabs() {
     <div className="container">
   <a classNameName="navbar-brand" href="#"><img className="logo" src={logo} alt="Avatar logo..."></img></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <FontAwesomeIcon icon={faBars}/>
+  <FontAwesomeIcon icon={faBars} style={{color: "#DF678C"}}/>
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">

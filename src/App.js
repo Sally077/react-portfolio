@@ -12,12 +12,15 @@ function App() {
     return (
       <Router>
         <div>
+          <>
+          <Header/>
           <NavTabs />
+          </>
           {/* Wrap Route elements in a Routes component */}
           <Routes>
             {/* Define routes using the Route component to render different page components at different paths */}
             {/* Define a default route that will render the Home component */}
-            <Route path="Header" element={<Header />}/>
+            {/* <Route path="Header" element={<Header />}/> */}
             <Route path="/" element={<Home />} />
             <Route path="Projects" element={<Projects />} />
             {/* <Route path="Contact" element={<Contact />} /> */}

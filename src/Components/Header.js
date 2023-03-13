@@ -3,7 +3,7 @@ import { Header } from 'react-router-dom';
 
 
 
-function Jumbotron() {
+function Head() {
   return( 
     <div className="jumbotron jumbotron-fluid">
         <div className="container">
@@ -16,5 +16,5 @@ function Jumbotron() {
 
 
 
-export default Jumbotron;
+export default Head;
 
