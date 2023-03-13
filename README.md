@@ -97,7 +97,8 @@ I looked at hexadecimal codes from the following website for styling ideas
 https://looka.com/blog/logo-color-combinations/
 
 
-
+I looked at the following website to help me add bootstrap cards into webpages.
+https://react-bootstrap.github.io/components/cards/
 
 
 
