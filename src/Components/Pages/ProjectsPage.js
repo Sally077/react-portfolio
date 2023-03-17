@@ -18,26 +18,38 @@ const ProjectsPage = () => {
     </p>
    <div className="image-box-wrapper row justify-content-center">
     <img className="projects" src={Travel_California} alt="Travel California..."></img>
+    <div className="image-box-wrapper row justify-content-center">
+    </div>
    </div>
    {/*  */}
    <div className="image-box-wrapper row justify-content-center">
     <img className="projects" src={Bootstrap_Portfolio} alt="Bootstrap Project..."></img>
+    <div className="image-box-wrapper row justify-content-center">
+    </div>
    </div>
     {/*  */}
     <div className="image-box-wrapper row justify-content-center">
     <img className="projects" src={Landing_Page} alt="Landing Page..."></img>
+    <div className="image-box-wrapper row justify-content-center">
+    </div>
    </div>
     {/*  */}
    <div className="image-box-wrapper row justify-content-center">
     <img className="projects" src={Portfolio1} alt="First Portfolio..."></img>
+    <div className="image-box-wrapper row justify-content-center">
+    </div>
    </div>
     {/*  */}
     <div className="image-box-wrapper row justify-content-center">
     <img className="projects" src={Paris_Olympics} alt="Paris Olympics site.."></img>
+    <div className="image-box-wrapper row justify-content-center">
+    </div>
    </div>
    {/*  */}
    <div className="image-box-wrapper row justify-content-center">
     <img className="projects" src={CheatSheet} alt="Cheat Sheet Page.."></img>
+    <div className="image-box-wrapper row justify-content-center">
+    </div>
    </div>
 
 
