@@ -6,7 +6,6 @@ import NavTabs from "./Components/NavTab";
 import Home from "./Components/Pages/HomePage";
 import Projects from "./Components/Pages/ProjectsPage";
 import Contact from "./Components/Pages/ContactPage";
-import Card from "./Components/Card";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -15,8 +14,9 @@ function App() {
       <Router>
         <div>
           <>
-          <Header/>
-          <NavTabs />     
+          <Header />
+          <NavTabs /> 
+          {/* {/* <ProjectsPage />     */}
           </>
           {/* Wrap Route elements in a Routes component */}
           <Routes>
@@ -25,13 +25,13 @@ function App() {
             {/* <Route path="Header" element={<Header />}/> */}
             <Route path="/" element={<Home />} />
             <Route path="Projects" element={<Projects />} />
-            <Route path="projects/" element={<Card/>}/>
+           
             {/* <Route path="Contact" element={<Contact />} /> */}
             {/* Define a route that will have descendant routes */}
             <Route path="contact/*" element={<Contact />} />
           </Routes>
         </div>
-      </Router>
+      </Router> 
     );
   }
   
