@@ -4,6 +4,7 @@
   :root {
     --primary-pink: #DF678C;
     --primary-purple: #3D155F;
+    --primary-light-Grey: #D3D3D3;
   }
   .body {
     font-family: 'Quicksand', sans-serif;
@@ -59,4 +60,22 @@ nav.navbar.navbar {
 .lead {
   font-size: 1.5rem !important;
   text-align: center;
+}
+/* Projects Page CSS */
+.portfolio-wrapper{
+
+  background: var(--primary-light-Grey);
+  padding: 3rem 0;
+
+}
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-purple);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image {
+
+  position: relative;
+  margin: 1rem;
 }
