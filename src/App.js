@@ -11,7 +11,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
     return (
+      <>
+       <Header />
       <NavTabs />
+      <div className="App">
+
+      <Home />
+      {/* <Projects />
+      <Contact />
+      */}
+       </div>
+      </>
+     
+      
     );
 }
   
