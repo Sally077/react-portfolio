@@ -100,6 +100,16 @@ https://looka.com/blog/logo-color-combinations/
 I looked at the following website to help me add bootstrap cards into webpages.
 https://react-bootstrap.github.io/components/cards/
 
+For the basics on how to use Reat I looked at some of the videos from the net ninja 
+https://www.youtube.com/watch?v=9D1x7-2FmTA
+
+I looked at the following tutorial to help explain how the map property works in react from the net ninja video.
+https://www.youtube.com/watch?v=tHjxSVaj_wY
+
+I also looked at the net ninja full react series to see how props are used to make my portfolio DRY
+https://www.youtube.com/watch?v=tHjxSVaj_wY
+
+
 
 
 ## License
