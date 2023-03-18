@@ -110,6 +110,12 @@ I also looked at the net ninja full react series to see how props are used to ma
 https://www.youtube.com/watch?v=tHjxSVaj_wY
 
 
+How to set up JSON data in react
+https://www.pluralsight.com/guides/load-and-render-json-data-into-react-components
+
+
+
+
 
 
 ## License

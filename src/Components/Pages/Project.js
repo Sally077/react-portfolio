@@ -9,7 +9,7 @@ const Project = () => {
 
     return (
         <div className="Projects">
-            <ProjectsPage />
+            <ProjectsPage work={work} />
         </div>
     );
 }
