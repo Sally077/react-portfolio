@@ -61,6 +61,10 @@ nav.navbar.navbar {
   font-size: 1.5rem !important;
   text-align: center;
 }
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
 /* Projects Page CSS */
 .portfolio-wrapper{
 
