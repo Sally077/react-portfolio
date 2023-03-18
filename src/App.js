@@ -11,29 +11,33 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
     return (
-      <Router>
-        <div>
-          <>
-          <Header />
-          <NavTabs /> 
-          {/* {/* <ProjectsPage />     */}
-          </>
-          {/* Wrap Route elements in a Routes component */}
-          <Routes>
-            {/* Define routes using the Route component to render different page components at different paths */}
-            {/* Define a default route that will render the Home component */}
-            {/* <Route path="Header" element={<Header />}/> */}
-            <Route path="/" element={<Home />} />
-            <Route path="Projects" element={<Projects />} />
-           
-            {/* <Route path="Contact" element={<Contact />} /> */}
-            {/* Define a route that will have descendant routes */}
-            <Route path="contact/*" element={<Contact />} />
-          </Routes>
-        </div>
-      </Router> 
+      <NavTabs />
     );
-  }
+}
   
   export default App;
   
+
+  // <Router>
+  //       <div>
+  //         <>
+  //         <Header />
+  //         <NavTabs /> 
+  //         {/* {/* <ProjectsPage />     */}
+  //         </>
+  //         {/* Wrap Route elements in a Routes component */}
+  //         <Routes>
+  //           {/* Define routes using the Route component to render different page components at different paths */}
+  //           {/* Define a default route that will render the Home component */}
+  //           {/* <Route path="Header" element={<Header />}/> */}
+  //           <Route path="/" element={<Home />} />
+  //           <Route path="Projects" element={<Projects />} />
+           
+  //           {/* <Route path="Contact" element={<Contact />} /> */}
+  //           {/* Define a route that will have descendant routes */}
+  //           <Route path="contact" element={<Contact />} />
+  //         </Routes>
+  //       </div>
+  //     </Router> 
+  //   );
+  // }
