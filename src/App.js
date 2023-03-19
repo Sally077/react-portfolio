@@ -11,17 +11,28 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
     return (
-      <>
+      <Router>
        <Header />
       <NavTabs />
       <div className="App">
 
-      <Home />
+      <Routes>
+        <Route path="/">
+          <Home />
+        </Route>
+        <Route path="./Component/Pages/ProjectsPage">
+          <Projects />
+        </Route>
+        <Route path="./Component/Pages/ContactPage">
+          <Contact />
+        </Route>
+
+      </Routes>
       {/* <Projects />
       <Contact />
       */}
        </div>
-      </>
+       </Router>
      
       
     );
@@ -30,37 +41,16 @@ function App() {
   export default App;
   
 
-  // <Router>
-  //       <div>
-  //         <>
-  //         <Header />
-  //         <NavTabs /> 
-  //         {/* {/* <ProjectsPage />     */}
-  //         </>
-  //         {/* Wrap Route elements in a Routes component */}
-  //         <Routes>
-  //           {/* Define routes using the Route component to render different page components at different paths */}
-  //           {/* Define a default route that will render the Home component */}
-  //           {/* <Route path="Header" element={<Header />}/> */}
-  //           <Route path="/" element={<Home />} />
-  //           <Route path="Projects" element={<Projects />} />
-           
-  //           {/* <Route path="Contact" element={<Contact />} /> */}
-  //           {/* Define a route that will have descendant routes */}
-  //           <Route path="contact" element={<Contact />} />
-  //         </Routes>
-  //       </div>
-  //     </Router> 
-  //   );
-  // }
+
 
 
   // ===========================================================================//
   // Things I need to do! 
 
-  // 1: create json database review net ninja video
-  // 2: Routes check out how to use routes effectively to get my pages connected and working
+  // 1: create json database review net ninja video >> /(done)
+  // 2: Routes check out how to use routes effectively to get my pages connected and working >> / (I think I've done it)
   // 3: Complete my Projet/Projects page so the bootstrap and js work together sort out the syntax so 
   // I can a) render my six projects on the JSON file
-  // 4: Make a reusable component that ingests JSON data as props, 
+  // 4: Make a reusable component that ingests JSON data as props >> (added props & JSON data but not able to test yet)
   // 5: Must utilize Router props to properly render the right project based on user selection
+  // 6: link linkedin CV and github to contact page
