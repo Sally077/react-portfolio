@@ -1,6 +1,4 @@
-import React from "react";
-import { Header } from "react-router-dom";
-
+import NavTabs from "./NavTab";
 
 
 function Head() {
@@ -10,6 +8,7 @@ function Head() {
           <h1 class="display-4">Sally Hedges</h1>
         <p class="lead">Front End Developer</p>
         </div>
+        <NavTabs />
       </div>
   );
   }

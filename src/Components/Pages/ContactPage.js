@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import contact from './ContactPage';
+// import contact from './ContactPage';
+// import LinkedIn from 'https://www.linkedin.com/feed/';
+// import GitHub from "https://github.com/Sally077";
+// import CV from "./Components/Sally Hedges CV pdf";
 
 function Contact(props) {
   return (
@@ -14,6 +17,9 @@ function Contact(props) {
       </Link>
       <Link to="contact" role="button" className="btn btn-link">
         My CV
+      </Link>
+      <Link to="contact" role="button" className="btn btn-link">
+        GitHub
       </Link>
       <Routes>
         <Route path="Contact" element={<Contact />} />
