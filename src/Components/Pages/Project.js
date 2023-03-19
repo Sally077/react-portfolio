@@ -1,38 +1,24 @@
-import { useState } from "react";
-import ProjectsPage from "./Components/Pages/ProjectsPage";
+import { Button, Card, Container, Col, Row } from "react-bootstrap";
 
-const Project = () => {
-    const [work, setWork] = useState (null)
-    // add loading message
-    const [isPending, setIsPending] = useState(true)
-
-    return (
-        <div className="Projects">
-            <ProjectsPage work={work} />
-        </div>
-    );
-}
-
-useEffect(() => {
-    setTimeout(() => {
-    fetch("http://localhost:8000/work")
-    .then(res =>{
-        return res.json()
-    })
-    .then(data => {
-        setWork(data);
-        setIsPending(false);
-    });
-},1000);
-
-}, []);
-
-return(
-    <div className="Projects">
-        {isPending && <div>Loading... </div>}
-    {work && <ProjectsPage work={work} title="All work"/>}
-    </div>
-)
-
+const Project = ({ work }) => {
+  return (
+    <Container>
+      <Row>
+        {work.map((item) => (
+          <Col>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={item.img} />
+              <Card.Body>
+                <Card.Title>{item.title}</Card.Title>
+                <Card.Text>{item.body}</Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </Container>
+  );
+};
 
 export default Project;

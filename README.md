@@ -116,6 +116,8 @@ https://www.pluralsight.com/guides/load-and-render-json-data-into-react-componen
 Video from netninjas on how to install Json db using npx
 https://www.youtube.com/watch?v=eao7ABGFUXs
 
+Video from net ninja on how to add Routes (changed swtich to Routes to make compatible with version 6)
+https://www.youtube.com/watch?v=EmUa_tcSM-k
 
 
 
@@ -143,4 +145,4 @@ N/A
 ## Tests
 <a id="tests"></a>
 
-Test 1 - check that all the links work and my file structure is in correct working order
+
