@@ -14,4 +14,15 @@ const Project = () => {
     );
 }
 
+useEffect(() => {
+    console.log("UseEffect has run");
+}, [];
+
+return(
+    <div className="Projects">
+        <ProjectsPage work={work} title="All work"/>
+    </div>
+),
+
+
 export default Project;

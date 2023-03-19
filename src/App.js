@@ -53,3 +53,14 @@ function App() {
   //     </Router> 
   //   );
   // }
+
+
+  // ===========================================================================//
+  // Things I need to do! 
+
+  // 1: create json database review net ninja video
+  // 2: Routes check out how to use routes effectively to get my pages connected and working
+  // 3: Complete my Projet/Projects page so the bootstrap and js work together sort out the syntax so 
+  // I can a) render my six projects on the JSON file
+  // 4: Make a reusable component that ingests JSON data as props, 
+  // 5: Must utilize Router props to properly render the right project based on user selection
