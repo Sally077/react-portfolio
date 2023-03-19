@@ -113,7 +113,8 @@ https://www.youtube.com/watch?v=tHjxSVaj_wY
 How to set up JSON data in react
 https://www.pluralsight.com/guides/load-and-render-json-data-into-react-components
 
-
+Video from netninjas on how to install Json db using npx
+https://www.youtube.com/watch?v=eao7ABGFUXs
 
 
 

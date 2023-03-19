@@ -10,7 +10,7 @@ import CheatSheet from "../Images/cheat-sheet.jpg";
 const ProjectsPage = (props) => {
   const work = props.work
   return (
-  <div className="ProjectsPage" > {/* need to find a way to link each id and title details*/}
+  <div className="ProjectsPage"> {/* need to find a way to link each id and title details*/}
     <div className="container">
     {work.map((work) => (
     <div className="work-element1" key={work.id}>
